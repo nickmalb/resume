@@ -35,6 +35,14 @@ body {
     font-weight: bold;
 }
 
+.experience-role {
+    font-size: 14px;
+}
+
+.experience-role > span:last-child {
+    float: right;
+}
+
 .sidebar {
     font-size: 14px;
     font-style: italic;
@@ -51,4 +59,8 @@ body {
 
 .education-item {
     margin-bottom: 30px;
+}
+
+.education-detail {
+    /* font-size: 13px; */
 }
