@@ -2,8 +2,15 @@ body {
     /* font-family:Arial, Helvetica, sans-serif; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* font-family:'Segoe UI'; */
-    margin: .25in;
-    width: 8.5in;
+    margin: .5in;
+    width: 7.5in;
+}
+
+@media print {
+    body {
+        margin: 0in;
+        width: 8.5in;
+    }
 }
 
 .header {
@@ -15,7 +22,7 @@ body {
 
 .header .name {
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 26pt;
 }
 
 .header .contact {
@@ -29,12 +36,12 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 20px;
-    padding-top:20px;
+    padding-top:10px;
 }
 
 .main-section-heading {
     font-weight: bold;
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     font-size: 16px;
     color: steelblue;
 }
@@ -88,8 +95,4 @@ body {
 
 .education-item > div:first-child {
     font-weight: bold;
-}
-
-.education-detail {
-    /* font-size: 13px; */
 }
